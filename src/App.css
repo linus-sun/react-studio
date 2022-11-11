@@ -7,3 +7,46 @@
 .BakeryItem {
   
 }
+
+.item-container {
+  display: flex;
+  flex-direction: row;
+  align-content: flex-start;
+  flex-wrap: wrap;
+  background-color: rgb(255, 164, 164);
+  justify-content: space-evenly;
+  width: 75%;
+}
+
+.bk-img {
+  width: 200px;
+  height: 200px;
+}
+
+.parent {
+  display: flex;
+}
+
+.cart {
+  width: 25%;
+}
+
+.cart-text {
+  align-content: center;
+  text-align: center;
+}
+
+.bakeryPrice {
+  text-align: left;
+  display: flex;
+  justify-content: space-between;
+}
+
+.cartButton {
+  height: 30px;
+  align-self: center;
+}
+
+.cart-item {
+  margin: 20px;
+}
